@@ -1,0 +1,28 @@
+{% extends "parent.html" %}
+{% block section %}
+    <h2>
+        Kontakt
+    </h2>
+    <ul>
+        <li>
+            <p>
+                <span>email: </span>jakis@email.com
+            </p>
+        </li>
+        <li>
+            <p>
+                <span>telegfon: </span>123 123 123
+            </p>
+        </li>
+    </ul>
+    <h3>
+        Wyślij wiadomość
+    </h3>
+    <form action="" method="POST">
+        <input name="text"/>
+        <input type="submit" value="Prześlij"/>
+    </form>
+{% endblock %}
+{% block footer %}
+    <a href="me">O mnie</a>
+{% endblock %}

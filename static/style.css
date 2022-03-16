@@ -1,0 +1,37 @@
+h1 {
+    background-color: beige;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+section {
+    margin-left: 100px;
+    height: 250px;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.about li {
+    list-style-type: none;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+}
